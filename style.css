@@ -11,13 +11,19 @@ body{
 #center{
     padding-top: 100px;
 }
-.top{
-    height: 600px;
+#middle{
+    padding-top: 100px;   
+}
+section{
+    height: 700px;
     border: 1px solid red;
-    padding-bottom: 80px;
-    padding-top: 100px;
+    
     background-image: url(images/header-bg.png);
     background-size: cover;
+
+
+    padding-bottom: 80px;
+    padding-top: 100px;
 }
 .half-width img{
     width: 90%;
@@ -29,6 +35,7 @@ body{
     border-radius: 5px;
     font-weight: 700;
     color: white;
+}
 
 }
 h1{

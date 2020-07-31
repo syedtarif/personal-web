@@ -8,25 +8,51 @@ body{
     margin-left: 5%;
     padding-left: 2%;
 }
+.latest-images{
+    width: 30%;
+    float: left;
+}
+.latest-images img{
+    width: 90%;
+    height: 350px;
+}
+.latest-part{
+    padding-top: 5%;
+    padding-left: 10%;
+}
 #center{
     padding-top: 100px;
 }
 #middle{
     padding-top: 100px;   
 }
+.in{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 700;
+}
 section{
     height: 700px;
-    border: 1px solid red;
-    
-    background-image: url(images/header-bg.png);
-    background-size: cover;
-
-
     padding-bottom: 80px;
     padding-top: 100px;
 }
+.top{
+    background-image: url(images/header-bg.png);
+}
+.biography{
+    background-image: url(images/biography-bg.png);
+}
+.latest{
+    background-image: url(images/latest-work-bg.png);
+    background-size: cover;
+}
+.last{
+    background-image: url(images/footer-bg.png);
+    background-size: cover;
+}
 .half-width img{
-    width: 90%;
+    width: 100%;
+    height: 601px;
 }
 .button{
     text-decoration: none;
@@ -44,9 +70,39 @@ h1{
 h2{
     font-size: 40px;
 }
+.bruce{
+    text-align: center;
+    font-size: 25px;
+    padding-top: 3%;
+}
+.lorem{
+    text-align: center;
+    font-size: 25px;
+    padding-top: 3%;
+    font-weight: 300;
+}
+.email{
+    font-size: 25px;
+    width: 700px;
+    height: 170px;
+    text-align: center;
+    background-image: linear-gradient(45deg, rgb(116, 116, 228), turquoise);
+    margin-top: 4%;
+    padding-top: 1px;
+    margin-left: 28%;
+    color: white;
+    
+    border-radius: 9px;
+}
 p{
     font-size: 22px;
 }
 span{
     color: turquoise;
+    font-size: 50px;
+}
+footer{
+    text-align: center;
+    font-size: 5px;
+    padding-top: 3%;
 }
